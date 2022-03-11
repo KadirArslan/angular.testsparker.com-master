@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>Allow out-of-scope XMLHttpRequests</h2>
+   <div class="row">
+    <p><b>Description:</b> Check this if the target website fails to load when some requests cannot be loaded because of Scan Profile out-of-scope settings.</p>
+    <p><b>How To Enable?: </b> Scan Policy Editor > YOUR_POLICY > JavaScript > Check "Allow out-of-scope XML HTTP request during simulation" checkbox</p>
+    <p><b>Case: </b>Report internal ip here: <b id="result1"></b> then loading document.</p>
+  </div>
+  <h2>Filter Document Events</h2>
+  <div class="row">
+    <p><b>Description:</b> Whether to filter events that are attached to "document" by name to a constant set of mousedown, keyup etc. in order to reduce triggered event count during the simulation.</p>
+    <p><b>How To Enable?: </b> Scan Policy Editor > YOUR_POLICY > JavaScript > Check "Filter document Events" checkbox</p>
+    <p><b>Case: </b>Triggered newMessage event after loading page and send XHR follow report Internal IP Disclosure.</p>
+  </div>
+  <h2>Filter Colon Events</h2>
+  <div class="row">
+    <p><b>Description:</b> Filter events that have a colon (:) Whether to filter events that contain a colon (:) in their name. They are usually used by frameworks and would be triggered by other events. Check this option in order to reduce triggered event count during the simulation. </p>
+    <p><b>How To Enable?: </b> Scan Policy Editor > YOUR_POLICY > JavaScript > Check "Filter 'colon' Events" checkbox</p>
+    <p><b>Case: </b><a id="btn2" href="extras#">redirect with "two:dots" event.</a> Triggered two:dots event and send XHR follow report Internal IP Disclosure.</p>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.cart {
+  position: absolute;
+  top: 0;
+}
+
+.btnConfirm {
+  background-color: #0094ff;
+  color: #ffffff;
+  font-size: 15px;
+  border: 1px solid #0094ff;
+  padding: 9px;
+}
+
+.btnConfirm:hover {
+  border: 1px solid #cccccc;
+}
+
+#footer {
+  margin-top: 100px;
+}
+
+#resetbar{
+  width: 100%;
+  /*position: absolute;*/
+  display: block;
+  top: 0;
+  background-color: #f4e242;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: #000 solid 1px;
+  /*position: fixed;*/
+  z-index: 9999999;
+  cursor: pointer;
+}

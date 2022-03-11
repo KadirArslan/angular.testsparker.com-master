@@ -1,0 +1,30 @@
+#result > div {
+  height: 100px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.starter-template {
+  padding: 40px 15px 0 15px;
+}
+
+input {
+  border: solid 1px #000;
+  font-size: 30px;
+}
+
+/deep/ .cdk-overlay-container {
+  top: 146px;
+  background: #ededed;
+  width: 500px;
+  margin: 0 auto;
+}

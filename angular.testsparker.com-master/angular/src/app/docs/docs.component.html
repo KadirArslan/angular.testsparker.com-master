@@ -1,0 +1,234 @@
+<div class="container">
+
+  <div class="row">
+    <h2>Documentation</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-4 sticky">
+      <ol id="list">
+        <li class="link"><a href="docs#1">Requirements</a></li>
+        <li class="link"><a href="docs#2">Installation</a></li>
+        <li class="link"><a href="docs#3">Accessibility</a></li>
+        <li class="link"><a href="docs#4">Bidirectionality</a></li>
+        <li class="link"><a href="docs#5">Drag and Drop</a></li>
+        <li class="link"><a href="docs#6">Layout</a></li>
+        <li class="link"><a href="docs#7">Observers</a></li>
+        <li class="link"><a href="docs#8">Overlay</a></li>
+        <li class="link"><a href="docs#9">Platform</a></li>
+        <li class="link"><a href="docs#10">Portal</a></li>
+        <li class="link"><a href="docs#11">Scrolling</a></li>
+        <li class="link"><a href="docs#12">Text Field</a></li>
+        <li class="link"><a href="docs#13">Stepper</a></li>
+        <li class="link"><a href="docs#14">Table</a></li>
+        <li class="link"><a href="docs#15">Tree</a></li>
+        <li class="link"><a href="docs#16">DOM Manipulation</a></li>
+        <li class="link"><a href="docs#17">Form Elements</a></li>
+      </ol>
+      <div id="last">
+        Last Click: <i></i>
+        <hr>
+      </div>
+    </div>
+
+    <div class="col-xs-8">
+      <h1 id="title"></h1>
+      <div class="row">
+        <h2 id="1">Requirement</h2>
+        <p>Welcome to Angular! Angular helps you build modern applications for the web, mobile, or desktop.  </p>
+        <p>This guide shows you how to build and run a simple Angular
+        app. You'll use the <a href="cli" title="CLI command reference">Angular CLI tool</a> to accelerate development,
+        while adhering to the <a href="guide/styleguide" title="Angular style guide">Style Guide</a> recommendations that
+        benefit <em>every</em> Angular project.</p>
+        <p>This guide takes less than 30 minutes to complete.
+        At the end of this guide—as part of final code review—there is a link to download a copy of the final application code. (If you don't execute the commands in this guide, you can still download the final application code.)</p>
+        <p>Before you begin, make sure your development environment includes <code>Node.js®</code> and an npm package manager. </p>
+      </div>
+      <div class="row">
+        <h2 id="2">Installation</h2>
+        <p>You use the Angular CLI
+        to create projects, generate application and library code, and perform a variety of ongoing development tasks such as testing, bundling, and deployment.</p>
+        <p>To install the CLI using <code>npm</code>, open a terminal/console window and enter the following command:</p>
+      </div>
+      <div class="row">
+        <h2 id="3">Accessibility</h2>
+        <ul>
+          <li>A new workspace, with a root folder named <code>my-app</code></li>
+          <li>An initial skeleton app project, also called <code>my-app</code> (in the <code>src</code> subfolder)</li>
+          <li>An end-to-end test project (in the <code>e2e</code> subfolder)</li>
+          <li>Related configuration files</li>
+        </ul>
+      </div>
+      <div class="row">
+        <h2 id="4">Bidirectionality</h2>
+        <p>Angular includes a server, so that you can easily build and serve your app locally.</p>
+      </div>
+      <div class="row">
+        <h2 id="5">Drag and Drop</h2>
+        <ol>
+          <li>
+          <p>Go to the workspace folder (<code>my-app</code>).</p>
+          </li>
+          <li>
+          <p>Launch the server by using the CLI command <code>ng serve</code>, with the <code>--open</code> option.</p>
+          </li>
+        </ol>
+        <p></p>
+      </div>
+      <div class="row">
+        <h2 id="6">Layout</h2>
+        <p><a href="guide/glossary#component"><strong><em>Components</em></strong></a> are the fundamental building blocks of Angular applications. They display data on the screen, listen for user input, and take action based on that input. </p>
+        <p>As part of the initial app, the CLI created the first Angular component for you. It is the <em>root component</em>, and it is named <code>app-root</code>. </p>
+      </div>
+      <div class="row">
+        <h2 id="7">Observers</h2>
+        <p>In this part of the tutorial, you'll do the following:</p>
+        <ol>
+          <li>Set up your environment.</li>
+          <li>Create a new workspace and initial app project.</li>
+          <li>Serve the application.</li>
+          <li>Make changes to the application.</li>
+          </ol>
+      </div>
+      <div class="row">
+        <h2 id="8">Overlay</h2>
+        <div class="alert is-helpful">
+          <p><strong>Note:</strong> You do not need to complete the entire Getting Started. After you complete the above two sections of Getting Started, your environment is set up. Continue below to create the Tour of Heroes workspace and an initial app project.</p>
+        </div>
+      </div>
+      <div class="row">
+        <h2 id="9">Platform</h2>
+        <p>It also creates the following workspace and starter project files:</p>
+        <ul>
+          <li>A new workspace, with a root folder named <code>angular-tour-of-heroes</code>.</li>
+          <li>An initial skeleton app project, also called <code>angular-tour-of-heroes</code> (in the <code>src</code> subfolder).</li>
+          <li>An end-to-end test project (in the e2e subfolder).</li>
+          <li>Related configuration files.</li>
+        </ul>
+      </div>
+      <div class="row">
+        <h2 id="10">Portal</h2>
+        <div class="alert is-helpful">
+        <p>The <code>ng serve</code> command builds the app, starts the development server,
+        watches the source files, and rebuilds the app as you make changes to those files.</p>
+        <p>The <code>--open</code> flag  opens a browser to <code><a href="api/common/http" class="code-anchor">http</a>://localhost:4200/</code>.</p>
+        </div>
+      </div>
+      <div class="row">
+        <h2 id="11">Scrolling</h2>
+        <p>The page you see is the <em>application shell</em>.
+        The shell is controlled by an Angular <strong>component</strong> named <code>AppComponent</code>.</p>
+        <p><em>Components</em> are the fundamental building blocks of Angular applications.
+        They display data on the screen, listen for user input, and take action based on that input.</p>
+      </div>
+      <div class="row">
+        <h2 id="12">Text Field</h2>
+        <p>To block XSS attacks, you must prevent malicious code from entering the DOM (Document Object Model). For example, if
+        attackers can trick you into inserting a <code>&lt;script&gt;</code> tag in the DOM, they can run arbitrary code on
+        your website. The attack isn't limited to <code>&lt;script&gt;</code> tags—many elements and properties in the
+        DOM allow code execution, for example, <code>&lt;img onerror="..."&gt;</code> and <code>&lt;<a href="api/router/RouterLinkWithHref" class="code-anchor">a</a> <a href="api/router/RouterLinkWithHref#href" class="code-anchor">href</a>="javascript:..."&gt;</code>. If
+        attacker-controlled data enters the DOM, expect security vulnerabilities.</p>
+      </div>
+      <div class="row">
+        <h2 id="13">Stepper</h2>
+        <ul>
+          <li><strong>HTML</strong> is used when interpreting a value as HTML, for example, when binding to <code>innerHtml</code>.</li>
+          <li><strong>Style</strong> is used when binding CSS into the <code><a href="api/animations/style" class="code-anchor">style</a></code> property.</li>
+          <li><strong>URL</strong> is used for URL properties, such as <code>&lt;<a href="api/router/RouterLinkWithHref" class="code-anchor">a</a> <a href="api/router/RouterLinkWithHref#href" class="code-anchor">href</a>&gt;</code>.</li>
+          <li><strong>Resource URL</strong> is a URL that will be loaded and executed as code, for example, in <code>&lt;script src&gt;</code>.</li>
+        </ul>
+      </div>
+      <div class="row">
+        <h2 id="14">Table</h2>
+        <ul>
+          <li><code>bypassSecurityTrustHtml</code></li>
+          <li><code>bypassSecurityTrustScript</code></li>
+          <li><code>bypassSecurityTrustStyle</code></li>
+          <li><code>bypassSecurityTrustUrl</code></li>
+          <li><code>bypassSecurityTrustResourceUrl</code></li>
+        </ul>
+      </div>
+      <div class="row">
+        <h2 id="15">Tree</h2>
+        <p>Angular applications must follow the same security principles as regular web applications, and
+        must be audited as such. Angular-specific APIs that should be audited in a security review,
+        such as the <a href="guide/security#bypass-security-apis"><em>bypassSecurityTrust</em></a> methods, are marked in the documentation
+        as security sensitive.</p>
+      </div>
+      <div class="row">
+        <h2 id="16">DOM Manipulation</h2>
+        <div class="alert is-critical">
+          <p>Angular follows the Unicode LDML convention that uses stable identifiers (Unicode locale identifiers)
+          based on the norm <a href="http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP47</a>. It is very important that
+          you follow this convention when you define your locale, because the Angular i18n tools use this
+          locale id to find the correct corresponding locale data.</p>
+        </div>
+      </div>
+      <div class="row">
+        <h2 id="17">Form Elements</h2>
+        <table>
+          <thead>
+          <tr>
+          <th>Locale name</th>
+          <th>Old locale id</th>
+          <th>New locale id</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+          <td>Indonesian</td>
+          <td>in</td>
+          <td>id</td>
+          </tr>
+          <tr>
+          <td>Hebrew</td>
+          <td>iw</td>
+          <td>he</td>
+          </tr>
+          <tr>
+          <td>Romanian Moldova</td>
+          <td>mo</td>
+          <td>ro-MD</td>
+          </tr>
+          <tr>
+          <td>Norwegian Bokmål</td>
+          <td>no, no-NO</td>
+          <td>nb</td>
+          </tr>
+          <tr>
+          <td>Serbian Latin</td>
+          <td>sh</td>
+          <td>sr-Latn</td>
+          </tr>
+          <tr>
+          <td>Filipino</td>
+          <td>tl</td>
+          <td>fil</td>
+          </tr>
+          <tr>
+          <td>Portuguese Brazil</td>
+          <td>pt-BR</td>
+          <td>pt</td>
+          </tr>
+          <tr>
+          <td>Chinese Simplified</td>
+          <td>zh-cn, zh-Hans-CN</td>
+          <td>zh-Hans</td>
+          </tr>
+          <tr>
+          <td>Chinese Traditional</td>
+          <td>zh-tw, zh-Hant-TW</td>
+          <td>zh-Hant</td>
+          </tr>
+          <tr>
+          <td>Chinese Traditional Hong Kong</td>
+          <td>zh-hk</td>
+          <td>zh-Hant-HK</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div>

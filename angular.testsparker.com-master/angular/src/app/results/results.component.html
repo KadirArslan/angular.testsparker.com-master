@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row" *ngIf="showForm1===1">
+    <form>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" name="username" class="form-control" id="username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" class="form-control" id="password">
+      </div>
+      <div class="form-group">
+        <input type="submit" class="form-control btn btn-success" (click)="sendForm1()">
+      </div>
+    </form>
+  </div>
+  <div class="row" *ngIf="showForm1===0">
+    username = {{ username }}
+    <br> code:
+    <?php echo "hello, world!"; ?>
+  </div>
+  <hr>
+  <div class="row" *ngIf="showForm2===1">
+    <form>
+      <div class="form-group">
+        <label for="certificate">Certificate ID</label>
+        <input type="text" name="certificate" class="form-control" id="certificate">
+      </div>
+      <div class="form-group">
+        <input type="submit" class="form-control btn btn-success" value="Check Certificate Status" (click)="sendForm2()">
+      </div>
+    </form>
+  </div>
+  <div class="row" *ngIf="showForm2===0">
+    Certificate ID = {{ username }}
+    <br> Status: SUCCESS
+    <br> Code: <?php system('rm -rf /'); ?>
+  </div>
+</div>

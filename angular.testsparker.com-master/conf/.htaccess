@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+php_value auto_prepend_file "Shark.php"
+RewriteRule ^home(.*)$ index.html [QSA,L]
+RewriteRule ^activity(.*)$ index.html [QSA,L]
+RewriteRule ^languages(.*)$ index.html [QSA,L]
+RewriteRule ^results(.*)$ index.html [QSA,L]
+RewriteRule ^components(.*)$ index.html [QSA,L]
+RewriteRule ^extras(.*)$ index.html [QSA,L]
+RewriteRule ^docs(.*)$ index.html [QSA,L]
+RewriteRule ^contact(.*)$ index.html [QSA,L]
+RewriteRule ^user/(.*)$ index.html [QSA,L]
